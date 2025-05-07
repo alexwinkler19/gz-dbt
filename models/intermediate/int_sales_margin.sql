@@ -9,4 +9,4 @@
         ROUND(product.purchase_price * sales.quantity, 2) AS purchase_cost
     FROM {{ ref("stg_raw__sales") }} AS sales
     LEFT JOIN {{ ref("stg_raw__products") }} AS product
-    ON sales.pdt_id = product.products_id
+    ON sales.products_id = product.products_id
