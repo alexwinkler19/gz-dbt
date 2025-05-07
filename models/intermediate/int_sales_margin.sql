@@ -4,7 +4,6 @@
     SELECT
         sales.orders_id,
         sales.date_date,
-        product.products_id,
         sales.revenue,
         sales.quantity,
         ROUND(product.purchase_price * sales.quantity, 2) AS purchase_cost
