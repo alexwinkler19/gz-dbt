@@ -46,3 +46,75 @@ sources:
             description: logistics cost
           - name: ship_cost
             description: shipping cost
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: facebook data
+        columns:
+          - name: date_date
+            description: order associated with the shipping revenue and cost
+          - name: paid_source
+            description: paid source
+          - name: campaign_key
+            description: campaign key
+          - name: camPGN_name
+            description: campaign name
+          - name: ads_cost
+            description: advertising cost
+          - name: impression
+            description: impressions
+          - name: click
+            description: clicks
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: criteo data
+        columns:
+          - name: date_date
+            description: order associated with the shipping revenue and cost
+          - name: paid_source
+            description: paid source
+          - name: campaign_key
+            description: campaign key
+          - name: camPGN_name
+            description: campaign name
+          - name: ads_cost
+            description: advertising cost
+          - name: impression
+            description: impressions
+          - name: click
+            description: clicks
+      - name: bing
+        identifier: raw_gz_bing
+        description: bing data
+        columns:
+          - name: date_date
+            description: order associated with the shipping revenue and cost
+          - name: paid_source
+            description: paid source
+          - name: campaign_key
+            description: campaign key
+          - name: camPGN_name
+            description: campaign name
+          - name: ads_cost
+            description: advertising cost
+          - name: impression
+            description: impressions
+          - name: click
+            description: clicks
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: adwords data
+        columns:
+          - name: date_date
+            description: order associated with the shipping revenue and cost
+          - name: paid_source
+            description: paid source
+          - name: campaign_key
+            description: campaign key
+          - name: camPGN_name
+            description: campaign name
+          - name: ads_cost
+            description: advertising cost
+          - name: impression
+            description: impressions
+          - name: click
+            description: clicks
